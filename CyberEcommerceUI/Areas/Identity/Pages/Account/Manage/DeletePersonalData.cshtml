@@ -1,0 +1,140 @@
+﻿@page
+@model DeletePersonalDataModel
+@{
+    ViewData["Title"] = "Delete Personal Data";
+    ViewData["ActivePage"] = ManageNavPages.PersonalData;
+}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Add Software - CyberSec Software</title>
+    <style>
+        /* Reset default browser styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+            header h1 {
+                margin: 0;
+            }
+
+        nav ul {
+            list-style-type: none;
+        }
+
+            nav ul li {
+                display: inline;
+                margin-right: 20px;
+            }
+
+                nav ul li a {
+                    color: white;
+                    text-decoration: none;
+                }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        form input,
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 3px;
+            border: 1px solid #ccc;
+        }
+
+            form input[type="submit"] {
+                background-color: #007bff;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                cursor: pointer;
+                border-radius: 3px;
+            }
+
+                form input[type="submit"]:hover {
+                    background-color: #0056b3;
+                }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 10px 0;
+            background-color: #007bff;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CyberSec Software Admin</h1>
+        <nav>
+            <ul>
+                <li><a href="admin_dashboard.html">Dashboard</a></li>
+                <li><a href="admin_add.html">Add Software</a></li>
+                <li><a href="admin_manage.html">Manage Software</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="add-software">
+            <h2>Add Software</h2>
+            <form action="submit_software.php" method="POST" enctype="multipart/form-data">
+                <label for="software-name">Software Name:</label>
+                <input type="text" id="software-name" name="software-name" placeholder="Software Name" required>
+
+                <label for="software-image">Software Image URL:</label>
+                <input type="text" id="software-image" name="software-image" placeholder="Image URL" required>
+
+                <label for="software-price">Software Price:</label>
+                <input type="number" id="software-price" name="software-price" placeholder="Price" required>
+
+                <input type="submit" value="Add Software">
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 CyberSec Software. All rights reserved. Sudais Iddriss Suallah</p>
+    </footer>
+</body>
+</html>

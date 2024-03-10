@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Cyrus Bansah\\Source\\Repos\\CyberEcommerceUI\\CyberEcommerceUI\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\CyberEcommerceUI.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CyberEcommerceUI.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Cyrus Bansah\\Source\\Repos\\CyberEcommerceUI\\CyberEcommerceUI\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Cyrus Bansah\\Source\\Repos\\CyberEcommerceUI\\CyberEcommerceUI\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Cyrus Bansah\\Source\\Repos\\CyberEcommerceUI\\CyberEcommerceUI\\wwwroot\\images\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Cyrus Bansah\\Source\\Repos\\CyberEcommerceUI\\CyberEcommerceUI\\wwwroot\\images\\2.png",
+      "PackagePath": "staticwebassets\\images\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\Cyrus Bansah\\Source\\Repos\\CyberEcommerceUI\\CyberEcommerceUI\\wwwroot\\images\\3.png",
+      "PackagePath": "staticwebassets\\images\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\Cyrus Bansah\\Source\\Repos\\CyberEcommerceUI\\CyberEcommerceUI\\wwwroot\\images\\no.png",
+      "PackagePath": "staticwebassets\\images\\no.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.CyberEcommerceUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.CyberEcommerceUI.props",
+      "PackagePath": "build\\CyberEcommerceUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.CyberEcommerceUI.props",
+      "PackagePath": "buildMultiTargeting\\CyberEcommerceUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.CyberEcommerceUI.props",
+      "PackagePath": "buildTransitive\\CyberEcommerceUI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
